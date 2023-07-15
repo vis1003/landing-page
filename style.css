@@ -1,0 +1,72 @@
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+  }
+
+  .sm a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #8a8a8ab2;
+    line-height: 50px;
+    color: black;
+    font-size: 26px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: .3s linear;
+}
+
+.sm a:hover {
+    transform: scale(1.1);
+    background-color: #9b9b9b;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  /* Add any additional styling for your content */
+  .content {
+    text-align: center;
+    color: #000000;
+    font-family: Garamond, serif;
+    font-size: 30px;
+  }
+
+  @font-face {
+    font-family: 'Playlist Script';
+    src: url('assets/Playlist_Script.otf') format('truetype');
+  }
+  
+  #typewriter-line {
+    height: 140px; /* Adjust the height to match the font size of the typewriter text */
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+  #typewriter {
+    font-family: 'Playlist Script', cursive;
+    font-size: 100vw; /* Adjust the font size as needed */
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .image {
+    max-width: 120px; /* Adjust the maximum width as needed */
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    margin-bottom: 2%;
+    margin-right: -1%;
+  }
