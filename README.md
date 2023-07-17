@@ -1,3 +1,3 @@
 # landing-page
-landing page for my art
-link to website: vismitha.art
+landing page for my art\
+link to website: [vismitha.art](vismitha.art)
